@@ -16,7 +16,7 @@ export const CovidReducer = (state = initialState,action) =>{
       case REQUEST_GET_COVID_DETAILS:
           return state
       case RETRIEVE_GET_COVID_DETAILS:
-          if(action.payload.length==0){
+          if(action.payload.length===0){
             return state={...state,data:action.payload,failed:true} 
           }
           else{
