@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import View from "./View/View";
-import {connect} from "react-redux";
+
 
 
 class App extends Component {
@@ -13,4 +13,4 @@ class App extends Component {
   }
 }
 
-export default connect(null,null)(App);
+export default App;
